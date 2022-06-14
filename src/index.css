@@ -9,12 +9,13 @@
 .navbar {
   padding: 20px;
   display: flex;
+  background-color: rgb(255, 254, 244);
   align-items: center;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
 }
 .navbar h1 {
-  color: #f1356d;
+  color: #e9d970;
 }
 .navbar .links {
   margin-left: auto;
@@ -25,7 +26,16 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: #f0d419;
+}
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(255, 254, 244);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 .content {
   margin: 40px auto;

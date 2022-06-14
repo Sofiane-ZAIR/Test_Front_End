@@ -43,6 +43,7 @@ function Home() {
               <Card
                 sx={{
                   width: 350,
+                  backgroundColor: "rgb(255, 254, 244)",
                 }}
               >
                 <CardContent>

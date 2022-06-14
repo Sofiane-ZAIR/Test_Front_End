@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import DialogFormulaire from "./Components/DialogFormulaire";
+import Footer from "./Components/Footer";
 function App() {
   return (
     <Router>
@@ -18,6 +19,7 @@ function App() {
             </Route>
           </Switch>
         </div>
+        <Footer />
       </div>
     </Router>
   );
